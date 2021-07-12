@@ -1,17 +1,8 @@
-### SET- UP ###
-# Packages needed
-packages = c("stringi")
+### LOAD PACKAGE ###
+if (!require("stringi")) {
+  install.packages("stringi", dependencies = TRUE) }
 
-## Checking (& installing) and loading
-package.check <- lapply(
-  packages,
-  FUN = function(x) {
-    if (!require(x, character.only = TRUE)) {
-      install.packages(x, dependencies = TRUE)
-      library(x, character.only = TRUE)
-    }
-  }
-)
+library("stringi", character.only = TRUE)
 
 ############
 
