@@ -77,9 +77,9 @@ vsd<- vst(dds)
 
 ## ZNF217 in Breast Cancer
 
-ZNF217 is a krupple-like is an oncogenic protein found in a chromosomal region frequently amplified in various cancers including breast cancer (Cohen et al., 2015). It is a known biomarker of poor prognosis and is found in 20-30% primary human breast cancer cases (Littlepage et al., 2012).
+ZNF217 is a krupple-like is an oncogenic protein found in a chromosomal region frequently amplified in various cancers including breast cancer (@Cohen2015). It is a known biomarker of poor prognosis and is found in 20-30% primary human breast cancer cases (@Littlepage2012).
 
-It belongs to the krupple-like family of transcription fators and is a transcriptional regulator invovled in both repressor and activating transcription complexes (Cohen et al., 2015). Overexpression of ZNF217 drives tumorigenic behavior such as impaired differentiation, self-renewal, motility, metastasis and impaired cell death.
+It belongs to the krupple-like family of transcription fators and is a transcriptional regulator invovled in both repressor and activating transcription complexes (@Cohen2015). Overexpression of ZNF217 drives tumorigenic behavior such as impaired differentiation, self-renewal, motility, metastasis and impaired cell death.
 
 ## Experimental Design
 
@@ -176,7 +176,7 @@ We then looked at the top 20 over and under expressed genes, visuazlied through 
 
 Interestingly, ***PART1*** a lncRNA reported to promote breast cancer progression through promoting proliferative and metastatic behaviors, was also upregulated.
 
-Gene functions were retrieved from the GeneCards suite (Stelzer et al., 2016).
+Gene functions were retrieved from the GeneCards suite (@Stelzer2016).
 
 ```{r Top20, results = 'last', fig.cap = c("Fig.4: Top 20 Over Expressed Genes", "Fig.5: Top 20 Under Expressed Genes")}
 # Extract Top 20 Over and Under-expressed Genes

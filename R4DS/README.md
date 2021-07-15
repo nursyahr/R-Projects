@@ -1,8 +1,9 @@
-# R for Data Science (modified from original)
+# R for Data Science 
+
 Analysis of publicly available [Gapminder](https://cran.r-project.org/web/packages/gapminder/README.html) dataset containing an excerpt of the original dataset looking at certain economic development metrics.
 
 # Purpose 
-- Part of the [R for Data Science] training requirements to undertake projects by the [Bioinformatics-Research-Network](https://github.com/Bioinformatics-Research-Network/training-requirements).
+- Part of the [R for Data Science](https://github.com/nursyahr/training-requirements/tree/main/R%20for%20Data%20Science) training requirements to undertake projects by the [Bioinformatics-Research-Network](https://github.com/Bioinformatics-Research-Network/training-requirements).
 
 # Task 
 
@@ -31,5 +32,6 @@ Flowchart for choosing statistical tests:
 
 # How to view page
 
-- **HTML file** can be downloaded and rendered or;
 - Can be viewed [here](https://rpubs.com/nursyahr/790925)
+- **HTML file** can be downloaded and rendered 
+

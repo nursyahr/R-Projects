@@ -106,8 +106,16 @@ game <- function() {
   } else {
     con <- "stdin"
   }
-  cat("Choose X or O? ")
+  cat("Choose X or O? (Case-sensitive.)  ")
   choice <- readLines(con=con,n=1)
+  
+  # Assigning player 'X' or 'O'.
+  while (!choice %in% c("X", "O") )
+  {
+    print("Invalid! Please use 'X' or 'O' only (Case-sensitive.)")
+    cat("Choose X or O?  ")
+    choice <- readLines(con=con,n=1)
+  }
   
   if (choice == "X") {
     curr.play = "Player"
